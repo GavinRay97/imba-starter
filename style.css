@@ -1,0 +1,29 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+}
+
+.App {
+    flex: 1 1 auto;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.App > * {
+    margin: 0px;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.App h1 { background: #ac6f66; }
+.App h2 { background: #9cd7d4; }
+.App h3 { background: #efebae; }
